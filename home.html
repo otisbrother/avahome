@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AvaHome_test</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-6.5.1-web/css/all.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.3-dist/css/bootstrap-grid.min.css"
+    /> -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-content">
+        <img src="./logo (1).png" alt="AvaHome Architecture Logo" />
+        <nav class="nav">
+          <a href="#">Trang Chủ</a>
+          <a href="#">Giới Thiệu</a>
+          <div class="dropdown">
+            <a href="#">Dự Án <i class="fa-solid fa-chevron-down"></i></a>
+            <div class="dropdown-content">
+              <a href="#">Biệt thự</a>
+              <a href="#">Nhà phố</a>
+              <a href="#">Căn hộ</a>
+            </div>
+          </div>
+          <a href="#">Công Trình Thực Tế</a>
+          <a href="#">Bảng Giá</a>
+          <a href="#">Liên Hệ</a>
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+        </nav>
+      </div>
+    </header>
+    <div class="slideshow-container">
+      <div class="slide active" style="background-image: url('./nhapho.jpg')">
+        <div class="banner">
+          <div>
+            <h1>NHÀ PHỐ</h1>
+            <button>XEM THÊM</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('./bietthu.jpg')">
+        <div class="banner">
+          <div>
+            <h1>BIỆT THỰ</h1>
+            <button>XEM THÊM</button>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background-image: url('./canho.jpg')">
+        <div class="banner">
+          <div>
+            <h1>CĂN HỘ</h1>
+            <button>XEM THÊM</button>
+          </div>
+        </div>
+      </div>
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+
+    <!-- about -->
+    <div class="container">
+      <div class="background-text">ABOUT</div>
+      <div class="content">
+        <h1>KIẾN TRÚC <span class="highlight">AVAHOME</span></h1>
+        <p>
+          ĐƠN VỊ THIẾT KẾ KIẾN TRÚC VÀ XÂY DỰNG HÀNG ĐẦU CỦA XU HƯỚNG KIẾN TRÚC
+          HIỆN ĐẠI
+        </p>
+        <button class="btn">XEM THÊM</button>
+      </div>
+    </div>
+
+    <!-- 3 pic -->
+    <div class="anh" style="display: flex">
+      <div class="pic1"><img src="./thietke1.jpg" alt="" /></div>
+      <div class="pic2"><img src="./thietke2.jpg" alt="" /></div>
+      <div class="pic3"><img src="./thietke3.jpg" alt="" /></div>
+    </div>
+
+    <!-- du an biet thu hien dai -->
+    <div class="boder_box">
+      <div class="background-text">SKILLS</div>
+      <div class="content">
+        <h1>DỰ ÁN <span class="highlight">BIỆT THỰ HIỆN ĐẠI.</span></h1>
+      </div>
+      <div class="img1" style="display: flex; justify-content: center">
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+      </div>
+    </div>
+
+    <!-- kien truc nha pho -->
+    <div class="">
+      <div class="background-text">TEAM</div>
+      <div class="content">
+        <h1>KIẾN TRÚC |<span class="highlight">NHÀ PHỐ.</span></h1>
+      </div>
+      <div class="img2">
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+      </div>
+    </div>
+
+    <!-- noi that -->
+    <div class="">
+      <div class="content">
+        <h1><span class="highlight">NỘI THẤT</span></h1>
+      </div>
+      <div class="img3">
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+        <img src="./thietke4.png" alt="" />
+      </div>
+    </div>
+    <!-- picture of mentor -->
+    <div class=""></div>
+
+    <!-- bang gia thiet ke -->
+    <div class="container1">
+      <div class="heading">
+        <h1>BẢNG GIÁ THIẾT KẾ</h1>
+      </div>
+      <div class="row">
+        <div class="card">
+          <div class="card-header">
+            <h1>NỘI THẤT VND/M2</h1>
+          </div>
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              neque molestiae eius explicabo mollitia tempore reiciendis, vel,
+              sequi.
+            </p>
+            <a href="#" class="btn">CHOOSE PLAN</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>NHÀ PHỐ VND/M2</h1>
+          </div>
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              neque molestiae eius explicabo mollitia tempore reiciendis, vel,
+              sequi.
+            </p>
+            <a href="#" class="btn">CHOOSE PLAN</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>BIỆT THỰ VND/M2</h1>
+          </div>
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              neque molestiae eius explicabo mollitia tempore reiciendis, vel,
+              sequi.
+            </p>
+            <a href="#" class="btn">CHOOSE PLAN</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <h1>TK CẢI TẠO VND/M2</h1>
+          </div>
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              neque molestiae eius explicabo mollitia tempore reiciendis, vel,
+              sequi.
+            </p>
+            <a href="#" class="btn">CHOOSE PLAN</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- quy trinh lam viec + img-->
+    <div class="">
+      <div class="image_container">
+        <img src="./thietke3.jpg" alt="Hình ảnh" />
+        <div class="text-overlay">QUY TRÌNH LÀM VIỆC</div>
+      </div>
+    </div>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <h3>Contact Us</h3>
+          <p>Email:Info@example.com</p>
+          <p>Phone:+121 56556 565556</p>
+          <p>Address:Your Address 123 street</p>
+        </div>
+        <div class="footer-content">
+          <h3>Quick Links</h3>
+          <ul class="list">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-content">
+          <h3>Follow Us</h3>
+          <ul class="social-icons">
+            <li>
+              <a href=""><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-bar">
+        <p>&copy; 2023 your company . All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="./event.js"></script>
+  </body>
+</html>
